@@ -46,7 +46,7 @@ body {
 }
 
 .intro {
-  
+  padding-top: 75px;
   padding-bottom: 60px; 
 }
 
@@ -62,8 +62,10 @@ body {
 
 .my-name-is-fade {
   animation: fadeIn 8s;
-  
-  
+}
+
+.justin-james {
+  animation: fadeIn 12s;
 }
 
 .J {
@@ -76,8 +78,13 @@ h1 {
 
 }
 
-h3 {
+h2  {
   font-size: 2.5rem;
+  color: white;
+}
+
+h3 {
+  font-size: 1.75rem;
 }
 
 
@@ -94,10 +101,33 @@ h3 {
   background-color: black;
   text-align: center;
   font-family: "Robot";
+  color: #64ffda;
+}
+
+.bio  {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: white;
+  margin: 40px 20% 100px;
+  
+
+}
+
+#portfolio {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Robot";
   color: white;
 }
 
-#contact {
-  margin-top: 2200px;
+.portfolio-title {
+  color: #64ffda;
+}
 
+#contact {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Robot";
+  color: white;
 }
